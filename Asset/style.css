@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav,header {
+  background-image: 
+    linear-gradient(rgba(35, 31, 31, 0.75), rgba(35, 31, 31, 0.75)),
+    url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+    background-color:#231f1f;
+    color:white;
+    padding: 15px;
+    height: 50px;
+    gap: 10px;
+}
+nav ul{
+    display: inline;
+    margin: 5px;
+    padding: 20px;
+    margin: 20px;
+     
+}
+li{
+display: inline;
+margin-top: 40x;
+text-align: center;
+gap: 8px;
+border-radius: 30px;
+border:1px solid orange;
+padding: 10px;
+background-color: orange;
+}
+ul{
+    margin-left: 60%;
+}
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+.serachbar{
+    text-align: center;
+    padding: 15px;
+}
+input{
+     width: 60%;
+     padding:15px;
+     margin: 10px;
+     
+}
+.box{
+    border-width:thin;
+    border-radius: 20px;
+    border-color:black;
+    border-style: solid;
+    box-shadow: "shadow";
+    border-width: 5px;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+}
+img{
+    height: 200px;
+    text-align: center;
+}
+p{
+    display: block;
+    padding: 20px;
+
+}
+.box:hover{
+    color:white;
+    background-color: black; 
+}
+
+#food{
+ text-align: center;
+ border-radius: 20px;
+}
+
+.food1{
+     height: 200px;
+     width:200px;
+    text-align: center;
+    
+}
+#about{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(images/banner-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+.about p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+#contact{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color:white;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.click{
+    background-color: black;
+    color: white;
+}
+.click:hover{
+    background-color: white;
+    color:black;
+}
+.single{
+   color:black;
+   font-size:large;
+   text-decoration: none;
+   padding: 2px;
+    margin: 2px;
+}
+.single:hover{
+color:white;
+}
+.header{
+   background-color:#3B3B3F;
+   color:#E8B04B;
+   text-align: center;
+   font-size: large;
+   padding-top: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#restaurant-name{
+    text-align: left;
+    padding: 20px;
+    bottom: 10px;
+}
+.slogan{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.login-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+   padding: 10px 30px;
+   width: auto;
+  position: absolute;
+    top: 1px;
+    right: 10px;
+}
+
+.login-btn:hover {
+    background: white;
+    color: #333;
+}
+body{
+    background-color: #FAF3E0;
+}
+#restaurant-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+#contact-us {
+    width: 400px;
+    height:300px;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    text-align: start;
+}
+
+#comment {
+    width: auto;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#contact-us h4{
+    text-align: center;
+}
+
+
