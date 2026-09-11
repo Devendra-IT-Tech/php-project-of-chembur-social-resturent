@@ -339,3 +339,16 @@ color:white;
     text-decoration: none;
     color: #4338ca;
 }
+#nav-order{
+    display: inline-block;
+    padding: 30px;
+    margin-left: 290px;
+    gap: 40px;
+}   
+#nav-box{
+     gap: 40px;
+     margin:20px;
+     text-decoration: none;
+     color: #231f1f;
+}
+
