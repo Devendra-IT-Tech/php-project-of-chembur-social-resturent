@@ -45,7 +45,7 @@ li:hover{
     text-align: center;
     padding: 15px;
 }
-input{
+#search-input{
      width: 60%;
      padding:15px;
      margin: 10px;
@@ -189,23 +189,120 @@ color:white;
 }
 #contact-us {
     width: 400px;
-    height:300px;
+    height:550px;
     border: 1px solid wheat;
     border-radius: 30px;
     text-align: start;
+
 }
 
 #comment {
-    width: auto;
+    width: 400px;
     border: 1px solid wheat;
     border-radius: 30px;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+
 }
 #contact-us h4{
     text-align: center;
+    font-size: 20px;
 }
+
+#input-name{
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#input-number{
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#input-email{
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+#input-message{
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px 20px 20px 10px ;
+    
+}
+
+#label-name{
+    padding-right: 120px;
+}
+
+#label-number{
+    padding-right: 120px;
+}
+
+#label-email{
+    padding-right: 120px;
+}
+
+#label-message{
+    padding-right: 120px;
+}
+.icons-f{
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin: 10px;
+}
+.icons-f:hover {
+  background: #d4af37;
+  color: #0d0d0d;
+}
+#icon{
+    text-align: center;
+}
+.icons-fa{
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin: 10px;  
+}
+
+.icons-fa:hover {
+  background: #d4af37;
+  color: #0d0d0d;
+}
+
+
+/* login style */
 
 #body-login{
     background-color: white;
@@ -258,10 +355,11 @@ color:white;
      border: 2px solid black;
 
 }
- 
 #login-form #email,#password{
     padding-right: 250px;
     }
+    /* regsitration style */
+
     #regsitration-form{
         text-align: center;
         border-radius: 30px;
@@ -338,17 +436,5 @@ color:white;
 #login-link a{
     text-decoration: none;
     color: #4338ca;
-}
-#nav-order{
-    display: inline-block;
-    padding: 30px;
-    margin-left: 290px;
-    gap: 40px;
-}   
-#nav-box{
-     gap: 40px;
-     margin:20px;
-     text-decoration: none;
-     color: #231f1f;
 }
 

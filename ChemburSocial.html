@@ -6,6 +6,7 @@
     <link rel="icon" href="Asset/images/logo.png">
     <title>Chembur Social</title>
     <link rel="stylesheet" href="Asset/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body id ="Home">
     <div class="header">
@@ -34,7 +35,7 @@ The Neighbourhood Café and Restaurant
         </div>
           
     <div class="serachbar">
-        <input placeholder="serachbar">
+        <input placeholder="serachbar" id="search-input">
     </div>
         <hr>
      <div id="about">
@@ -71,7 +72,7 @@ The Neighbourhood Café and Restaurant
     </div>
     </div>
    
-    <div id="contact">
+   <div id="contact">
             <br>
             <h1> GET IN TOUCH </h1>
             <h3> We'd love to hear from you. Come visit us!  </h3>
@@ -82,27 +83,36 @@ The Neighbourhood Café and Restaurant
                 <p>📞Phone: 8450994189</p>
                 <p> ✉ Email: social.@restaurant.com </p>
                 <p>🕐Opening Hours:10:00 AM - 10:00 PM</p>
+                <hr>
+                <div id="icon">
+                <p>follows us</p>
+                <a class="icons-f" href="https://www.instagram.com/devendra_4701?stkn=MWI2cjhkYTB6cTFyYw=="><i class="fa-brands fa-instagram"></i></a>
+                <a class="icons-f"><i class="fa-brands fa-facebook"  ></i></a>
+                <a class="icons-f"><i class="fa-brands fa-whatsapp" ></i></a><br>
+                <a class="icons-fa" href="https://maps.google.com/?q=145+Food+Street+Chembur+Mumbai"><i class="fa-solid fa-location-dot" ></i></a>
+                </div>
             </div>
                 <div id="comment">
                     <form action="" ,method="post">
                 <h1>Contact Us</h1><br>
                 <div id="form-box">
-                <label>Full Name:</label>
-                <input placeholder="Full Name" type="text" required><br>
+                <label id="label-name">Full Name:</label><br>
+                <input placeholder="Full Name" type="text" required id="input-name"><br>
                 </div>
                 <div id="form-box">
-                <label>📞Phone number:</label>
-                <input placeholder="phoneNumber" type="tel" required><br>
+                <label id="label-number">📞Phone number:</label><br>
+                <input placeholder="phoneNumber" type="tel" required id="input-number"><br>
                 </div>
                 <div id="form-box">
-                <label>Email:</label>
-                <input placeholder="Gmail" type="gmail" required><br>
+                <label id="label-email">Email:</label><br>
+                <input placeholder="Gmail" type="gmail" required id="input-email"><br>
                 </div>
                 <div id="form-box">
-                <label>Message:</label>
-                <input placeholder="message" type="text" id="message" required><br>
+                <label id="label-message">Message:</label><br>
+                <input placeholder="message" type="text" id="input-message" required><br>
                 </div>
-                <button>Send Message</button>
+                <button>Send Message</button><br>
+
                 </form>
 
                 </div>
