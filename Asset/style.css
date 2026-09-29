@@ -59,7 +59,7 @@ li:hover{
     box-shadow: "shadow";
     border-width: 5px;
     display: inline-block;
-    width: 200px;
+    width:auto;
     height: auto;
     text-align: center;
     border-radius: 8px;
@@ -251,11 +251,11 @@ color:white;
 }
 
 #label-email{
-    padding-right: 120px;
+    padding-right: 140px;
 }
 
 #label-message{
-    padding-right: 120px;
+    padding-right: 140px;
 }
 .icons-f{
   
@@ -301,6 +301,10 @@ color:white;
   color: #0d0d0d;
 }
 
+#submit{
+    border-radius: 30px;
+    padding: 20px;
+}
 
 /* login style */
 
@@ -437,11 +441,23 @@ color:white;
     text-decoration: none;
     color: #4338ca;
 }
+/* product-page */
+#menu-filter {
+    width: 100%;
+    min-height: auto;
+    padding: 25px;
+
+    background-color: #1f1f1f;
+    border: 2px solid #e8b04b;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
 
 #menu-filter {
-    width: 280px;
-    min-height: 400px;
-    padding: 25px;
+    width: 100%;
+    padding: 20px;
     background-color: #1f1f1f;
     border: 2px solid #e8b04b;
     border-radius: 15px;
@@ -452,27 +468,32 @@ color:white;
 #menu-filter h2 {
     color: #e8b04b;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 28px;
 }
 
-.filter-item {
+
+#menu-filter {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 14px 15px;
-    margin: 12px 0;
-    border-radius: 10px;
+    gap: 25px;
+}
+
+#menu-filter h2 {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.filter-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
     color: white;
     font-size: 18px;
     cursor: pointer;
-    transition: 0.3s;
-}
 
-.filter-item:hover {
-    background-color: #e8b04b;
-    color: black;
-    transform: translateX(5px);
+    white-space: nowrap;
 }
 
 .filter-item input[type="checkbox"] {
@@ -480,4 +501,36 @@ color:white;
     height: 20px;
     cursor: pointer;
     accent-color: #e8b04b;
+}
+.nav-order{
+    text-align: center;
+}
+#Order{
+    margin: 1px;
+    align-items: flex-end;
+    display: inline;
+    width: auto;
+    height: auto;
+}
+
+#footer-info{
+    text-align: center;
+    align-items: center;
+}
+
+#contact-order{
+    display: inline-flex;
+    margin-left:20px ;
+     color: #2563EB;
+}
+.footer-order {
+    background-color: #18181B;
+    color: #D4A017;
+}
+footer h2 {
+    color: #1E3A8A;
+}
+footer .copyright {
+    background-color: #1E3A8A;
+    color: white;
 }
