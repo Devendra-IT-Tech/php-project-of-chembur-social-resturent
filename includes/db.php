@@ -1,11 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "scr";
+$host = "sql312.infinityfree.com";
+$username = "if0_43298420";
+$password = "sDi9AVuD09DU";
+$database = "if0_43298420_if0_43298420_restaurant";
 
-$conn = new mysqli($servername,$username,$password,$dbname);
-if($conn->connect_error){
-    die("connection failed : ".$conn->connect_error);
+$conn = mysqli_connect($host, $username, $password, $database);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
